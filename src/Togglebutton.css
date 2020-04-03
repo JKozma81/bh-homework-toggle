@@ -1,0 +1,38 @@
+.toggle-button {
+  width: 125px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.button-switch {
+  width: 50px;
+  height: 30px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.on {
+  border: 2px solid green;
+  background-color: greenyellow;
+}
+
+.off {
+  border: 2px solid darkred;
+  background-color: red;
+}
+
+.left {
+  left: 0;
+  top: 0;
+}
+
+.right {
+  right: 0;
+  top: 0;
+}
